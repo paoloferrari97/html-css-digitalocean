@@ -363,6 +363,29 @@
     padding-left: 10px;
 }
 
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .service_customers > .container > .row > div.col-lg-6:first-child{
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .service_customers > .container > .row > div.col-lg-6:last-child{
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .service_customers > .container > .row > div.col-lg-6:first-child{
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .service_customers > .container > .row > div.col-lg-6:last-child{
+        padding-left: 0px;
+    }
+}
+
+
 
 
 /* FOOTER */
