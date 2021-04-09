@@ -327,7 +327,11 @@
     text-align: center;
 }
 
-
+@media screen and (max-width: 767px){
+    .features_business > .row > .col-xs-12{
+        margin-bottom: 20px;
+    }
+}
 
 
 
