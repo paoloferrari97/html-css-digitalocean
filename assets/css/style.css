@@ -348,13 +348,20 @@
 .service_customers > .container > .row > div.col-lg-6 > .row{
     border-bottom: 1px solid white;
     line-height: 40px;
+    font-size: 15px;
 }
 
 .service_customers > .container > .row > div.col-lg-6 > .row:last-child{
     border-bottom: 0px;
 }
 
+.service_customers > .container > .row > div.col-lg-6:first-child{
+    padding-right: 10px;
+}
 
+.service_customers > .container > .row > div.col-lg-6:last-child{
+    padding-left: 10px;
+}
 
 
 
