@@ -202,7 +202,7 @@
 
 .scritte_loghi :first-child{
     font-size: 15px;
-    color: grey;
+    color: #697692;
     font-weight: 600;
 }
 
@@ -225,7 +225,48 @@
 }
 
 /* deploy and scale seamlessly */
+.deploy_scale{
+    padding: 50px 0;
+}
 
+.deploy_scale > div:first-child{
+    text-align: center;
+}
+
+.deploy_scale > div:first-child > h2{
+    color: #031c4e;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.deploy_scale > div:first-child > p{
+    color: #697692;
+    line-height: 23px;
+    margin-bottom: 50px;
+}
+
+.deploy_scale > .row{
+    color: #848da5;
+}
+
+.deploy_scale > .row > .col-lg-4 > ul{
+    list-style: none;
+    border-left: 1px solid #848da5;
+    padding-left: 10px;
+    margin-left: 30%;
+    line-height: 40px;
+}
+
+.deploy_scale > .row > .col-lg-7 > .row > .col-lg-6 > h3{
+    font-size: 18px;
+    margin: 10px 0;
+    color: #031c4e;
+}
+
+.deploy_scale > .row > .col-lg-7 > .row > .col-lg-6 > p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
 
 
 
