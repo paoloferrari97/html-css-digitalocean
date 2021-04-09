@@ -333,6 +333,29 @@
     }
 }
 
+/* service your customers */
+.service_customers{
+    background: linear-gradient(179.76deg, #0047C5 0.21%, #001E99 99.8%);
+    padding: 50px 0;
+    color: white;
+}
+
+.service_customers > .container > h2{
+    text-align: center;
+    color: white;
+}
+
+.service_customers > .container > .row > div.col-lg-6 > .row{
+    border-bottom: 1px solid white;
+    line-height: 40px;
+}
+
+.service_customers > .container > .row > div.col-lg-6 > .row:last-child{
+    border-bottom: 0px;
+}
+
+
+
 
 
 /* FOOTER */
