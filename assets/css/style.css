@@ -41,6 +41,10 @@
 .p_pieno{
     background-color: #006aff;
 }
+.link_b_fin{
+    color: #006aff;
+    font-weight: 600;
+}
 
 /* HEADER */
 
@@ -231,11 +235,6 @@
     font-weight: 600;
 }
 
-.scritte_loghi :nth-child(3){
-    color: #006aff;
-    font-weight: 600;
-}
-
 @media screen and (min-width: 768px) and (max-width: 991px){
     .loghi > img{
         height: 50px;
@@ -320,7 +319,7 @@
 
 /* the features your business needs */
 .features_business{
-    padding-top: 50px;
+    padding: 50px 0;
 }
 
 .features_business > h2{
