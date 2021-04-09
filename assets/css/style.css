@@ -23,7 +23,7 @@
     width: 10px;
     height: 10px;
     border: 1px solid #006aff;
-    margin: 18px 1px;
+    margin: 18px 0px 1px 1px;
     border-radius: 50%;
     display: inline-block;
 }
@@ -311,6 +311,12 @@
     color: #031c4e;
     font-size: 15px;
     font-weight: 600;
+}
+
+@media screen and (max-width: 767px){
+    .disegned_developers > div > i{
+        display: none;
+    }
 }
 
 
