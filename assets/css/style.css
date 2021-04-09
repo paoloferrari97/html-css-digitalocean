@@ -269,6 +269,12 @@
     padding-right: 30px;
 }
 
+@media screen and (max-width: 767px){
+    .deploy_scale > .row > .col-lg-4 > ul{
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+}
 
 
 /* FOOTER */
