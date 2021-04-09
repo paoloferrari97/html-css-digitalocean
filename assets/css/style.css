@@ -9,6 +9,16 @@
 .grigino{
     background-color: #f3f5f9;
 }
+.tit_h2{
+    color: #031c4e;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.par_s_h2{
+    color: #697692;
+    line-height: 23px;
+    margin-bottom: 50px;
+}
 
 /* HEADER */
 
@@ -78,13 +88,6 @@
     border-radius: 0.3rem;
     text-align: center;
     padding: 40px 20px;
-}
-
-.blu_header > div > div.col-lg-5 > p:first-child{
-    color: #031c4e;
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 20px;
 }
 
 .blu_header > div > div.col-lg-5 > p:nth-child(2){
@@ -233,18 +236,6 @@
     text-align: center;
 }
 
-.deploy_scale > div:first-child > h2{
-    color: #031c4e;
-    margin-bottom: 15px;
-    font-size: 30px;
-}
-
-.deploy_scale > div:first-child > p{
-    color: #697692;
-    line-height: 23px;
-    margin-bottom: 50px;
-}
-
 .deploy_scale > .row{
     color: #848da5;
 }
@@ -274,6 +265,41 @@
         margin-left: 0;
         margin-bottom: 20px;
     }
+}
+
+/* designed for developers */
+.disegned_developers{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.disegned_developers > div.d_flex{
+    justify-content: center;
+    align-items: center;
+}
+
+.disegned_developers > div.d_flex > i{
+    margin: 0 40px;
+    font-size: 35px;
+}
+
+.disegned_developers > div.d_flex > i:first-child{
+    color: #6f7b97;
+}
+
+.disegned_developers > div.d_flex > i:last-child{
+   color: #031c4e; 
+}
+
+.disegned_developers > div.d_flex > img{
+    width: 40%;
+}
+
+.sotto_img{
+    margin-top: 30px;
+    color: #031c4e;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 
