@@ -1,0 +1,128 @@
+*{
+    font-family: 'Inter-Medium','Helvetica','san-serif'
+}
+
+/* UTILITY CLASS */
+.d_flex{
+    display: flex;
+}
+
+/* HEADER */
+
+/* nav header */
+.nav_header{
+    padding: 20px 0;
+    align-items: center;
+}
+
+.nav_header > div > img{
+    height: 30px;
+}
+
+.nav_header > div > a{
+    text-decoration: none;
+    color: #031c4e;
+    margin-right: 10px;
+}
+
+.btn_vuoto{
+    border: 1px solid #006aff;
+    color: #006aff;
+    border-radius: 0.3rem;
+    padding: 10px;
+}
+.btn_vuoto:hover{
+    background-color: #006aff;
+    color: white;
+    cursor: pointer;
+}
+
+/* blu header */
+.blu_header{
+    background-image: url("/img/bg-banner-home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px 0;
+}
+
+.blu_header h1{
+    color: white;
+    font-size: 65px;
+}
+
+.blu_header > div > div.col-lg-7 p{
+    color: #bbcdff;
+    font-size: 25px;
+    margin-top: 20px;
+    line-height: 35px;
+}
+
+.blu_header > div > div.col-lg-7{
+    padding-right: 40px;
+}
+
+.blu_header > div > div.col-lg-5{
+    background-color: white;
+    border-radius: 0.3rem;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.blu_header > div > div.col-lg-5 > p:first-child{
+    color: #031c4e;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.blu_header > div > div.col-lg-5 > p:nth-child(2){
+    color: #006aff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.blu_header > div > div.col-lg-5 > input{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 40px;
+    border-radius: 0.3rem;
+    border: 1px solid #eeeeee;
+}
+
+.account_c{
+    background-color: #579aff;
+    border-radius: 0.3rem;
+    color: white; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.google_s{
+    color: #626262;
+    font-weight: 600;
+    border-radius: 0.3rem;    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px #eeeeee;
+    position: relative;
+}
+
+.google_s > img{
+    height: 20px;
+    position: absolute;
+    left: 15px;
+}
+
+.blu_header > div > div.col-lg-5 > :last-child{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+
+/* MAIN */
+
+/* FOOTER */
