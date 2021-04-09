@@ -19,6 +19,17 @@
     line-height: 23px;
     margin-bottom: 50px;
 }
+.pallino{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #006aff;
+    margin: 18px 1px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.p_pieno{
+    background-color: #006aff;
+}
 
 /* HEADER */
 
@@ -295,12 +306,13 @@
     width: 40%;
 }
 
-.sotto_img{
+.sotto_img p{
     margin-top: 30px;
     color: #031c4e;
     font-size: 15px;
     font-weight: 600;
 }
+
 
 
 /* FOOTER */
