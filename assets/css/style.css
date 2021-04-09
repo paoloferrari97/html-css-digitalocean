@@ -37,6 +37,10 @@
     cursor: pointer;
 }
 
+.col-lg-9{
+    display: none;
+}
+
 /* blu header */
 .blu_header{
     background-image: url("/img/bg-banner-home.jpg");
@@ -121,6 +125,67 @@
     font-size: 15px;
     padding-top: 10px;
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .container{
+        width: 95%;
+        margin: auto;
+    }
+    .blu_header h1{
+        font-size: 55px;
+    }
+    .blu_header > div > div.col-lg-7 p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .blu_header > div > div.col-lg-5 > :last-child{
+        font-size: 12px;
+    }
+    .nav_header > div.col-lg-6, .nav_header > div.col-lg-3:last-child{
+        display: none;
+    }
+    .col-lg-9{
+        display: block;
+        text-align: right;
+        width: 100%;
+        color: #579aff;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .container{
+        width: 95%;
+        margin: auto;
+    }
+    .blu_header h1{
+        font-size: 55px;
+    }
+    .blu_header > div > div.col-lg-7 p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .blu_header > div > div.col-lg-5 > :last-child{
+        font-size: 12px;
+    }
+    .nav_header > div.col-lg-6, .nav_header > div.col-lg-3:last-child{
+        display: none;
+    }
+    .col-lg-9{
+        display: block;
+        text-align: right;
+        width: 100%;
+        color: #579aff;
+        font-size: 20px;
+    }
+    .col-lg-5.col-md-5.col-xs-12{
+        margin-top: 10px;
+    }
+}
+
+
+
+
 
 
 /* MAIN */
