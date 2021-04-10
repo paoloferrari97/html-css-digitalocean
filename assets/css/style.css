@@ -9,6 +9,9 @@
 .grigino{
     background-color: #f3f5f9;
 }
+.blu_sfumato{
+    background: linear-gradient(179.76deg, #0047C5 0.21%, #001E99 99.8%);
+}
 .tit_h2{
     color: #031c4e;
     margin-bottom: 15px;
@@ -363,8 +366,7 @@
 }
 
 /* service your customers */
-.service_customers{
-    background: linear-gradient(179.76deg, #0047C5 0.21%, #001E99 99.8%);
+.service_customers{    
     padding: 50px 0;
     color: white;
 }
@@ -414,7 +416,31 @@
     }
 }
 
+/* get started now */
+.get_started{
+    padding: 50px 0;
+    text-align: center;
+}
 
+.get_started > h2{
+    color: white;
+}
+
+.btn_pieno{
+    border: 1px solid white;
+    color: #006aff;
+    background-color: white;
+    border-radius: 0.3rem;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.btn_pieno:hover{
+    background-color: #031c4e;
+    color: white;
+}
 
 
 
