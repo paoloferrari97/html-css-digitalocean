@@ -475,7 +475,7 @@ footer{
     color: #006aff;
 }
 
-/* 2 colonna */
+/* 2 3 4 colonna */
 footer > .container.row > .col-lg-2.d_flex{
     color: #75809a;
     flex-direction: column;
