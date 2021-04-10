@@ -455,6 +455,7 @@ footer{
     align-items: flex-start;
     color: #75809a;
     line-height: 25px;
+    margin-bottom: 20px;
 }
 
 .container.row > .col-lg-4.d_flex > img{
@@ -482,6 +483,7 @@ footer > .container.row > .col-lg-2.d_flex{
     align-items: flex-start;
     line-height: 3px;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 
 footer > .container.row > .col-lg-2 > h3{
