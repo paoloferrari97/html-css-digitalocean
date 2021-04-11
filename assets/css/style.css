@@ -139,17 +139,15 @@
 .account_c{
     background-color: #579aff;
     border-radius: 0.3rem;
-    color: white; 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    color: white;
+    padding: 10px 0;
     margin-bottom: 10px;
 }
 
 .google_s{
     color: #626262;
     border-radius: 0.3rem;    
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0;
     box-shadow: 1px 1px #eeeeee;
     position: relative;
 }
@@ -484,5 +482,4 @@ footer > .container.row > .col-lg-2 > h3{
     .service_customers > .container > .row > div.col-lg-6:last-child{
         padding-left: 0px;
     }
-
 }
