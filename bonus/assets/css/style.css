@@ -555,3 +555,39 @@ footer > .container.row > .col-lg-2 > h3{
     border-top: 1px solid black;
     border-right: 1px solid black;
 }
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .chat_big{
+        left: 30px;
+        bottom: 100px;
+        width: 50px;
+    }
+
+    .chat_big:hover .icona_a{
+        padding-left: 0;
+        width: 50px;
+    }
+
+    .chat_scritta{
+        left: 30px;
+        bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .chat_big{
+        left: 30px;
+        bottom: 100px;
+        width: 50px;
+    }
+
+    .chat_big:hover .icona_a{
+        padding-left: 0;
+        width: 50px;
+    }
+
+    .chat_scritta{
+        left: 30px;
+        bottom: 30px;
+    }
+}
