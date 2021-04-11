@@ -48,6 +48,9 @@
     color: #006aff;
     font-weight: 600;
 }
+.font_weight_600{
+    font-weight: 600;
+}
 
 /* HEADER */
 
@@ -119,10 +122,9 @@
     padding: 40px 20px;
 }
 
-.blu_header > div > div.col-lg-5 > p:nth-child(2){
+.blu_header > div > div.col-lg-5 > :nth-child(2){
     color: #006aff;
     font-size: 30px;
-    font-weight: 600;
     margin-bottom: 20px;
 }
 
@@ -140,13 +142,11 @@
     color: white; 
     padding-top: 10px;
     padding-bottom: 10px;
-    font-weight: 600;
     margin-bottom: 10px;
 }
 
 .google_s{
     color: #626262;
-    font-weight: 600;
     border-radius: 0.3rem;    
     padding-top: 10px;
     padding-bottom: 10px;
@@ -185,7 +185,6 @@
 .scritte_loghi :first-child{
     font-size: 15px;
     color: #697692;
-    font-weight: 600;
 }
 
 /* deploy and scale seamlessly */
@@ -241,7 +240,6 @@
     margin-top: 30px;
     color: #031c4e;
     font-size: 15px;
-    font-weight: 600;
 }
 
 .tit_h2.tit_mar_b{
@@ -258,7 +256,6 @@
 .disegned_developers_development_teams > div.d_flex > div > span{
     color: #031c4e;
     font-size: 13px;
-    font-weight: 600;
     display: inline-block;
     margin-top: 20px;
 }
@@ -331,7 +328,6 @@
     text-decoration: none;
     display: inline-block;
     margin-top: 20px;
-    font-weight: 600;
 }
 .btn_pieno:hover{
     background-color: #031c4e;
@@ -372,13 +368,12 @@ footer{
     color: #006aff;
 }
 
-/* 2 3 4 colonna */
+/* 2 3 4 5 colonna */
 footer > .container.row > .col-lg-2.d_flex{
     color: #75809a;
     flex-direction: column;
     align-items: flex-start;
     line-height: 3px;
-    font-weight: 600;
     margin-bottom: 20px;
 }
 
