@@ -485,6 +485,11 @@ footer > .container.row > .col-lg-2 > h3{
 }
 
 /* CHAT */
+.chat_big{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
 
 .chat{
     background-color: #006aff;
@@ -492,9 +497,6 @@ footer > .container.row > .col-lg-2 > h3{
     height: 50px;
     border-radius: 0.3rem;
     align-items: center;
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
 }
 
 .chat > img{
@@ -518,4 +520,35 @@ footer > .container.row > .col-lg-2 > h3{
 
 .chat > span > span{
     position: absolute;
+}
+
+.chat_scritta{
+    display: none;
+    width: 320px;
+    background-color: white;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 0.3rem;
+    position: fixed;
+    right: 100px;
+    bottom: 30px;
+}
+
+.chat_big:hover .chat_scritta{
+    display: block;
+}
+
+.chat_big:hover .icona_a{
+    padding-left: 20px;
+    width: 70px;
+}
+
+.chat_scritta > div{
+    width: 10px;
+    height: 10px;
+    background-color: white;    
+    position: absolute;
+    right: 0;
+    top: 70%;
+    transform: translate(+50%, -50%) rotate(45deg);
 }
