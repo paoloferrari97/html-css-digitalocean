@@ -532,6 +532,7 @@ footer > .container.row > .col-lg-2 > h3{
     position: fixed;
     right: 100px;
     bottom: 30px;
+    border: 1px solid black;
 }
 
 .chat_big:hover .chat_scritta{
@@ -550,5 +551,7 @@ footer > .container.row > .col-lg-2 > h3{
     position: absolute;
     right: 0;
     top: 70%;
-    transform: translate(+50%, -50%) rotate(45deg);
+    transform: translate(+56%, -50%) rotate(45deg);
+    border-top: 1px solid black;
+    border-right: 1px solid black;
 }
