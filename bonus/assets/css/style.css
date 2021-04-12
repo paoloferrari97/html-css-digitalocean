@@ -653,3 +653,13 @@ footer > .container.row > .col-lg-2 > h3{
 .menu_header > i:hover .menu_ddm{
     display: block;
 }
+
+/* bottoni parte blu header */
+
+.account_c.font_weight_600:hover{
+    background-color: #72a8f8;
+}
+
+.google_s.font_weight_600:hover{
+    background-color: rgb(240, 240, 240);
+}
